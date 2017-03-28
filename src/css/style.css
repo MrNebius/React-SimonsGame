@@ -1,0 +1,135 @@
+.main{
+    display:block;
+    position: relative;
+    width: 240px;
+    margin: auto;
+    font-family: Arial;
+    border: 5px solid #222;
+    background-color: black;
+}
+.button_strict_on{
+    position:relative;
+    width: 240px;
+    color: green;
+    background: lawngreen;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow:0px 5px 0px #bcff72, 0px 8px 5px rgba(0,0,0,0.3);
+}
+.button_strict_on:active{
+    top: 3px;
+    background-color:lawngreen;
+    box-shadow:0px 2px 0px 0px #828282, 0px 5px 3px rgba(0,0,0,0.2);
+}
+.button_strict_off{
+    position:relative;
+    width: 240px;
+    background: red;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow:0px 5px 0px #ff7066, 0px 8px 5px rgba(0,0,0,0.3);
+}
+.button_strict_off:active{
+    top: 3px;
+    background-color:red;
+    box-shadow:0px 2px 0px 0px #828282, 0px 5px 3px rgba(0,0,0,0.2);
+}
+.buttons{
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: darkgrey;
+}
+.buttons_active{
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: red;
+}
+.buttons:hover{
+    background: grey;
+}
+.buttons:disabled{
+    background: grey;
+}
+
+.display {
+    width: 240px;
+    color: #444;
+    text-align: center;
+    font-size: 21px;
+    background: #bccd95;
+    display: inline-block;
+}
+
+.difficult_buttons {
+    float: left;
+    width: 80px;
+    position:relative;
+    background-color: #E3E3E3;
+    font-size: 17px;
+    border: 2px solid green;
+    border-radius: 5px;
+    box-shadow:0px 5px 0px #828282, 0px 8px 5px rgba(0,0,0,0.3);
+}
+.difficult_buttons:disabled {
+    top: 3px;
+    background-color:#D3D3D3;
+    box-shadow:0px 2px 0px 0px #828282, 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+.button {
+    bottom: 83px;
+    left:60px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #B21522;
+    border-radius: 100px;
+    outline:none;
+    font: normal 20px/1.1 "Black Ops One", Helvetica, sans-serif;
+    color: rgba(255,255,255,0.9);
+    text-align: center;
+    text-overflow: clip;
+    white-space: pre;
+    background: radial-gradient(closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #C91826;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 158px 142px;
+    box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 3px 6px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 0 -1px 0 rgba(40,40,40,0.6) ;
+    transition: all 40ms cubic-bezier(0.6, -0.28, 0.735, 0.04);
+    transform: rotateX(35deg)  translateY(15px) translateZ(40px) ;
+}
+
+.button:hover {
+    background: radial-gradient(closest-side, rgba(255,255,255,0.28) 0, rgba(0,0,0,0) 100%), #a80008;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 158px 142px;
+    box-shadow: 1px 16px 10px 5px rgba(0,0,0,0.2) , 0 14px 0 0 #000000 , 4px 8px 15px 4px rgba(0,0,0,0.4) , 5px 1px 5px 0 rgba(255,255,255,0.2) inset, 5px -4px 5px 0 rgba(255,255,255,0.2) inset, -2px 2px 6px 0 rgba(0,0,0,0.2) inset;
+}
+
+.button:active {
+    position: absolute;
+    cursor: default;
+    bottom: 77px;
+    background: radial-gradient(closest-side, rgba(255,255,255,0.2) 0, rgba(0,0,0,0) 100%), #c60009;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 158px 142px;
+    box-shadow: 1px 5px 8px 4px rgba(0,0,0,0.4) , 0 7px 0 0 #000000 , 1px 2px 1px 1px rgba(0,0,0,0.6) , 3px 1px 5px 0 rgba(255,255,255,0.2) inset, 3px -6px 5px 0 rgba(255,255,255,0.2) inset, -1px 1px 4px 0 rgba(0,0,0,0.2) inset;
+}
+
+
